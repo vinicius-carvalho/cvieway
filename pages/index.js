@@ -1,20 +1,20 @@
 import Head from "next/head";
 import Feature from "../components/Feature";
-import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
+import Examples from "../components/Examples";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>VPN Best Landingpage </title>
+        <title>CVIEWAWAY - Currículos dinâmicos do seu jeito </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
         <Hero />
         <Feature />
-        <Pricing />
+        <Examples />
       </Layout>
     </>
   );
